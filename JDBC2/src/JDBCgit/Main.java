@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		System.out.println("1.가입 2.조회");
+		System.out.println("1.가입 2.조회 3.수정");
 		Scanner sc = new Scanner(System.in);
 		int choice = sc.nextInt();
 		if (choice == 1) {
